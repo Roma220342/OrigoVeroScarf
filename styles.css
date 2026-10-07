@@ -475,3 +475,11 @@ h1, h2, h3, .section__title { text-wrap: balance; }
 /* ---------- Passport status ---------- */
 .verified__status { display: flex; align-items: center; gap: 4px; font-size: 15px; line-height: 22px; color: var(--text-secondary); }
 .verified__check { width: 18px; height: 18px; color: var(--text-primary); }
+
+/* ---------- Key facts: up to three labelled facts that hold for the whole life of the passport ---------- */
+.keyfacts { margin: 0; }
+.keyfacts > div { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 10px 0; border-top: 1px solid rgba(255, 255, 255, 0.16); }
+.keyfacts > div:first-child { padding-top: 0; border-top: 0; }
+.keyfacts > div:last-child { padding-bottom: 0; }
+.keyfacts dt { font-size: 15px; line-height: 22px; color: rgba(255, 255, 255, 0.72); }
+.keyfacts dd { margin: 0; font-size: 17px; line-height: 25px; font-weight: 500; color: var(--gold); text-align: right; }

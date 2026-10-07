@@ -13,7 +13,7 @@ Content comes only from the product page on origovero.com. The scarf photo is lo
 | Journey | Five steps: China (country level), then the Netherlands and three steps in Amsterdam. The Netherlands step is plotted at Amsterdam because the page names no city. The camera never zooms closer than country level on China (`data-zoom`) |
 | Details | Size, batch, fabric, print, format, "Item: 1 of 6 in this batch" (the batch page lists six items, this is item 001), ecodesign, link to all batches of the model |
 | Impact | Recycled content 0%, cotton 100%, where the fabric and the scarf were made |
-| Story | One paragraph from the studio; the care text is a short list (wash, bleach, dry, iron) plus the note about the studio's own care label |
+| Story | The same module skeleton as the other two products, with a highlight band (wash temperature): one paragraph from the studio, then the care as notes (wash, bleach, dry, iron) plus the note about the studio's own care label |
 | Not on this page | No actions block, no tasting or cold chain, no external support or shop links |
 
 ## Open questions for the client

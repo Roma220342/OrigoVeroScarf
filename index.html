@@ -78,11 +78,10 @@
 
       <!-- The material is the first peak of the page; the edition number is its caption -->
       <div class="hero-body">
-        <dl class="keyfacts" aria-label="Key facts">
-          <div><dt>Fabric</dt><dd>Cotton sateen</dd></div>
-          <div><dt>Size</dt><dd>68 × 68 cm</dd></div>
-          <div><dt>Print</dt><dd>Patchwork</dd></div>
-        </dl>
+        <section class="fact" aria-label="Main material">
+          <p class="fact__text">Main material</p>
+          <p class="fact__figure">100% Cotton</p>
+        </section>
       </div>
 
       <!-- Details -->
@@ -204,24 +203,24 @@
         </div>
       </section>
 
-      <!-- Story: one paragraph from the studio, the care as a short list -->
-      <section class="section" id="story" aria-labelledby="story-title">
-        <h2 class="section__title" id="story-title">The story of this scarf</h2>
-        <p class="section__lead">Curated by Tess van Zalinge.</p>
-        <div class="section__body">
-          <dl class="pairs">
+      <!-- Story and care: the module section, same skeleton as Tasting & service and End of life -->
+      <section class="section section--module" id="story" aria-labelledby="story-title">
+        <div class="module__head">
+          <h2 class="section__title" id="story-title">Story &amp; care</h2>
+          <p class="section__lead">Curated by Tess van Zalinge.</p>
+        </div>
+        <div class="highlight">
+          <div class="fact"><p class="fact__text">Wash at</p><p class="fact__figure">30&nbsp;°C</p></div>
+        </div>
+        <div class="module__body">
+          <dl class="pairs pairs--loose">
             <div><dt>From the studio</dt><dd>By wearing this design, you’re supporting a more conscious way of making, with less waste, responsible production and positive social impact.</dd></div>
+            <div><dt>Wash</dt><dd>30&nbsp;°C, mild detergent, delicate cycle, inside out</dd></div>
+            <div><dt>Bleach</dt><dd>Do not bleach</dd></div>
+            <div><dt>Dry</dt><dd>In the shade, not in direct sun</dd></div>
+            <div><dt>Iron</dt><dd>Medium heat, slightly damp, on the reverse, with a pressing cloth</dd></div>
           </dl>
-          <div class="care">
-            <h3 class="group">Care</h3>
-            <dl class="kv kv--end">
-              <div class="kv__row"><dt>Wash</dt><dd>30&nbsp;°C, mild detergent, delicate cycle, inside out</dd></div>
-              <div class="kv__row"><dt>Bleach</dt><dd>Do not bleach</dd></div>
-              <div class="kv__row"><dt>Dry</dt><dd>In the shade, not in direct sun</dd></div>
-              <div class="kv__row"><dt>Iron</dt><dd>Medium heat, slightly damp, on the reverse, with a pressing cloth</dd></div>
-            </dl>
-            <p class="care__note">If the studio has given the piece its own care label, follow that instead.</p>
-          </div>
+          <p class="module__note">If the studio has given the piece its own care label, follow that instead.</p>
         </div>
       </section>
 

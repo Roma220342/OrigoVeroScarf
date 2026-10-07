@@ -472,3 +472,7 @@ h1, h2, h3, .section__title { text-wrap: balance; }
 .care { margin-top: 32px; }
 .care .group { margin: 0 0 4px; }
 .care__note { margin-top: 12px; font-size: 15px; line-height: 22px; color: var(--text-secondary); }
+
+/* ---------- Passport status ---------- */
+.verified__status { display: flex; align-items: center; gap: 4px; font-size: 15px; line-height: 22px; color: var(--text-secondary); }
+.verified__check { width: 18px; height: 18px; color: var(--text-primary); }

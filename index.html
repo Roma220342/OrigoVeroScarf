@@ -49,10 +49,10 @@
       <nav class="tabs" aria-label="Sections">
         <ul class="tabs__scroll" id="tabs-scroll">
           <li><a class="tab" href="#top" data-target="top" aria-current="true">Overview</a></li>
-          <li><a class="tab" href="#story" data-target="story">Story</a></li>
-          <li><a class="tab" href="#journey" data-target="journey">Journey</a></li>
           <li><a class="tab" href="#details" data-target="details">Details</a></li>
+          <li><a class="tab" href="#journey" data-target="journey">Journey</a></li>
           <li><a class="tab" href="#impact" data-target="impact">Impact</a></li>
+          <li><a class="tab" href="#story" data-target="story">Story</a></li>
           <li><a class="tab" href="#faq" data-target="faq">Good to know</a></li>
           <li><a class="tab" href="#report" data-target="report">Report an issue</a></li>
         </ul>
@@ -84,23 +84,25 @@
         </section>
       </div>
 
-      <!-- Story: one paragraph from the studio, the care as a short list -->
-      <section class="section" id="story" aria-labelledby="story-title">
-        <h2 class="section__title" id="story-title">The story of this scarf</h2>
-        <p class="section__lead">Curated by Tess van Zalinge.</p>
+      <!-- Details -->
+      <section class="section" id="details" aria-labelledby="details-title">
+        <h2 class="section__title" id="details-title">Details</h2>
         <div class="section__body">
-          <dl class="pairs">
-            <div><dt>From the studio</dt><dd>By wearing this design, you’re supporting a more conscious way of making, with less waste, responsible production and positive social impact.</dd></div>
+          <dl class="figures figures--2">
+            <div class="figure"><dt>Size (cm)</dt><dd><span class="figure__line"><span class="figure__num">68 × 68</span></span></dd></div>
+            <div class="figure"><dt>Batch</dt><dd><span class="figure__line"><span class="figure__num">2026-08</span></span></dd></div>
           </dl>
-          <div class="care">
-            <h3 class="group">Care</h3>
-            <dl class="kv kv--end">
-              <div class="kv__row"><dt>Wash</dt><dd>30&nbsp;°C, mild detergent, delicate cycle, inside out</dd></div>
-              <div class="kv__row"><dt>Bleach</dt><dd>Do not bleach</dd></div>
-              <div class="kv__row"><dt>Dry</dt><dd>In the shade, not in direct sun</dd></div>
-              <div class="kv__row"><dt>Iron</dt><dd>Medium heat, slightly damp, on the reverse, with a pressing cloth</dd></div>
+          <div class="rows">
+            <dl class="kv">
+              <div class="kv__row"><dt>Fabric</dt><dd>Cotton sateen</dd></div>
+              <div class="kv__row"><dt>Print</dt><dd>Patchwork</dd></div>
+              <div class="kv__row"><dt>Format</dt><dd>Piece, 1&nbsp;pc</dd></div>
+              <div class="kv__row"><dt>Item</dt><dd>1 of 6 in this batch</dd></div>
+              <div class="kv__row"><dt>Ecodesign</dt><dd>Voluntary disclosure</dd></div>
             </dl>
-            <p class="care__note">If the studio has given the piece its own care label, follow that instead.</p>
+            <div class="more">
+              <a class="more__head" href="https://www.origovero.com/b2c/model/02000000002095" target="_blank" rel="noopener"><span class="more__label">Model</span><span class="more__value">All batches</span><svg class="glyph glyph--24 rowlink__icon" aria-hidden="true"><use href="#g-ext"/></svg><span class="sr-only"> (opens another site)</span></a>
+            </div>
           </div>
         </div>
       </section>
@@ -178,29 +180,6 @@
         </ol>
       </section>
 
-      <!-- Details -->
-      <section class="section" id="details" aria-labelledby="details-title">
-        <h2 class="section__title" id="details-title">Details</h2>
-        <div class="section__body">
-          <dl class="figures figures--2">
-            <div class="figure"><dt>Size (cm)</dt><dd><span class="figure__line"><span class="figure__num">68 × 68</span></span></dd></div>
-            <div class="figure"><dt>Batch</dt><dd><span class="figure__line"><span class="figure__num">2026-08</span></span></dd></div>
-          </dl>
-          <div class="rows">
-            <dl class="kv">
-              <div class="kv__row"><dt>Fabric</dt><dd>Cotton sateen</dd></div>
-              <div class="kv__row"><dt>Print</dt><dd>Patchwork</dd></div>
-              <div class="kv__row"><dt>Format</dt><dd>Piece, 1&nbsp;pc</dd></div>
-              <div class="kv__row"><dt>Item</dt><dd>1 of 6 in this batch</dd></div>
-              <div class="kv__row"><dt>Ecodesign</dt><dd>Voluntary disclosure</dd></div>
-            </dl>
-            <div class="more">
-              <a class="more__head" href="https://www.origovero.com/b2c/model/02000000002095" target="_blank" rel="noopener"><span class="more__label">Model</span><span class="more__value">All batches</span><svg class="glyph glyph--24 rowlink__icon" aria-hidden="true"><use href="#g-ext"/></svg><span class="sr-only"> (opens another site)</span></a>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- Impact -->
       <section class="section" id="impact" aria-labelledby="impact-title">
         <h2 class="section__title" id="impact-title">Impact</h2>
@@ -220,6 +199,27 @@
           <div class="block">
             <p class="block__label">Scarf</p>
             <p class="block__link">Cut, sewn and finished by United Repair Centre in Amsterdam, July&nbsp;2026</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Story: one paragraph from the studio, the care as a short list -->
+      <section class="section" id="story" aria-labelledby="story-title">
+        <h2 class="section__title" id="story-title">The story of this scarf</h2>
+        <p class="section__lead">Curated by Tess van Zalinge.</p>
+        <div class="section__body">
+          <dl class="pairs">
+            <div><dt>From the studio</dt><dd>By wearing this design, you’re supporting a more conscious way of making, with less waste, responsible production and positive social impact.</dd></div>
+          </dl>
+          <div class="care">
+            <h3 class="group">Care</h3>
+            <dl class="kv kv--end">
+              <div class="kv__row"><dt>Wash</dt><dd>30&nbsp;°C, mild detergent, delicate cycle, inside out</dd></div>
+              <div class="kv__row"><dt>Bleach</dt><dd>Do not bleach</dd></div>
+              <div class="kv__row"><dt>Dry</dt><dd>In the shade, not in direct sun</dd></div>
+              <div class="kv__row"><dt>Iron</dt><dd>Medium heat, slightly damp, on the reverse, with a pressing cloth</dd></div>
+            </dl>
+            <p class="care__note">If the studio has given the piece its own care label, follow that instead.</p>
           </div>
         </div>
       </section>

@@ -9,6 +9,7 @@ Content comes only from the product page on origovero.com. The scarf photo is lo
 | Part | Scarf |
 |---|---|
 | Key fact | 100% Cotton (main material) |
+| Order | Details, Journey, Impact, Story and care (what it is and where it comes from before how to wash it) |
 | Journey | Five steps: China (country level), then the Netherlands and three steps in Amsterdam. The Netherlands step is plotted at Amsterdam because the page names no city. The camera never zooms closer than country level on China (`data-zoom`) |
 | Details | Size, batch, fabric, print, format, "Item: 1 of 6 in this batch" (the batch page lists six items, this is item 001), ecodesign, link to all batches of the model |
 | Impact | Recycled content 0%, cotton 100%, where the fabric and the scarf were made |

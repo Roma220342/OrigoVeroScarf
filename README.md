@@ -8,16 +8,16 @@ Content comes only from the product page on origovero.com. The scarf photo is lo
 
 | Part | Scarf |
 |---|---|
-| Key fact | 100% Cotton (main material), with "Nº 1 of 6" as its caption |
+| Key fact | 100% Cotton (main material) |
 | Journey | Five steps: China (country level), then the Netherlands and three steps in Amsterdam. The Netherlands step is plotted at Amsterdam because the page names no city. The camera never zooms closer than country level on China (`data-zoom`) |
-| Details | Size, batch, fabric, print, format, ecodesign, link to all batches of the model |
+| Details | Size, batch, fabric, print, format, "Item: 1 of 6 in this batch" (the batch page lists six items, this is item 001), ecodesign, link to all batches of the model |
 | Impact | Recycled content 0%, cotton 100%, where the fabric and the scarf were made |
 | Story | One paragraph from the studio; the care text is a short list (wash, bleach, dry, iron) plus the note about the studio's own care label |
 | Not on this page | No actions block, no tasting or cold chain, no external support or shop links |
 
 ## Open questions for the client
 
-- What "Nº 1 of 6" means (a numbered edition?).
+- "Nº 1 of 6" is read as the item number inside batch 2026-08 (the batch page lists six items). Is it also a limited edition, i.e. will no more be made?
 - Which city or mill the fabric came from in China and where in the Netherlands it was printed.
 - Dates for the steps that have none (raw material, quality check); the page says "to be confirmed" only for printing.
 - "Print: Patchwork" is read from the product name.

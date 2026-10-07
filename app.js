@@ -210,7 +210,7 @@
   const emailField = $('#email-field');
   const email = $('#email');
   const emailError = $('#email-error');
-  const details = $('#details');
+  const details = $('#report-details');
   const reason = $('#reason');
 
   const autosize = (el) => { el.style.height = 'auto'; el.style.height = el.scrollHeight + 'px'; };

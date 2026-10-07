@@ -27,3 +27,7 @@ Content comes only from the product page on origovero.com. The scarf photo is lo
 ## Behaviour and checks
 
 Scrollspy tabs, animated accordions, map with one point per step and a camera that follows the product, Replay, full screen step viewer, language sheet. Checked with Playwright at 390 px: no console errors, no horizontal scroll.
+
+## Feedback and reviews
+
+The report form also takes feedback: the reason "Share feedback" goes to the brand privately, in the same place on all three passports. Public reviews are not shown. Questions for the client: are public ratings wanted at all (the EU passport content is an authoritative record from the operator, and reviews are not part of it), how would a review be tied to the item (scanning the item's own QR proves possession), and where would they be aggregated (the "All batches of this model" page looks like the natural place).
